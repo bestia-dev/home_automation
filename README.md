@@ -1,12 +1,13 @@
 # home_automation
 
-Is comfort our end goal in life ?
+**Is comfort our end goal in life ?**  
+*date: 2021-02-23 authors: Luciano Bestia*
 
 ## The big TV screen
 
 I don't watch "television" anymore. But I have a big flat Panasonic TV screen attached to my Thinkpad notebook and I watch much too much Youtube videos.  
 The Thinkpad and the "big monitor" are switched on all day. What can I do? I am crazy about computers and stuff, and I hoard them.  
-![TV setup](https://github.com/LucianoBestia/arduino_turns_on_laptop/raw/main/images/TV_setup.jpg)
+![TV setup](https://github.com/LucianoBestia/home_automation/raw/main/images/TV_setup.jpg)
 
 ## turn them on
 
@@ -119,8 +120,13 @@ The Task Scheduler exported xml (only important parts):
 
 ## all together
 
+On modern 16:9 screens it is clever to put the task bar on the left edge. Today monitors are far too wide and vertically extremely thin. Every vertical pixel is like gold. Unfortunately windows design was created in times when the monitor were taller. So there is a lot of elements that consume vertical space instead of horizontal space. Unfortunate!  
 
+![screenshot](https://github.com/LucianoBestia/home_automation/raw/main/images/screenshot_1.png)
 
+I like to have a button for fast shutdown on the Taskbar. In the icon properties:  
+`Target: C:\Windows\System32\shutdown.exe /s /t 00`  
+And the Icon file: 
 
 
 
