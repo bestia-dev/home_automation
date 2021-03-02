@@ -91,6 +91,16 @@ The Google calendar is very convenient to have it in sight all the time. Let sta
 </Task>
 ```
 
+This is a combination of 4 calendars:  
+
+1. my personal calendar
+2. my wife's personal calendar
+3. our common calendar for events we do together
+4. my mother's personal calendar
+
+Every calendar event has its own color to easy distinguish.
+Just like everything: it is not perfect, but it works good enough.  
+
 ## clock in millidays
 
 My hobby is to think about time and date formats. There would be no fun in it, if these formats were "perfect", but they are terribly confusing and outdated. So I am proposing a reform to time/date to make it look modern, more `metric`. Sure we have to adapt it to the rotation of our planet and to human rhythms and traditions. It will always be just a compromise. It is impossible to make it "perfect". But we have to somehow change this archaic ways we use today to something better.  
@@ -99,8 +109,8 @@ My hobby is to think about time and date formats. There would be no fun in it, i
 <https://github.com/LucianoBestia/veeks_millis>  
 
 The Task Scheduler exported xml (only important parts):  
-<?xml version="1.0" encoding="UTF-16"?>
-<Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
+
+```xml
   <RegistrationInfo>
     <URI>\millisclock on startup</URI>
   </RegistrationInfo>
@@ -117,16 +127,32 @@ The Task Scheduler exported xml (only important parts):
     </Exec>
   </Actions>
 </Task>
+```
 
 ## all together
 
-On modern 16:9 screens it is clever to put the task bar on the left edge. Today monitors are far too wide and vertically extremely thin. Every vertical pixel is like gold. Unfortunately windows design was created in times when the monitor were taller. So there is a lot of elements that consume vertical space instead of horizontal space. Unfortunate!  
+On modern 16:9 screens it is clever to put the task bar on the left edge and fix it. Today monitors are far too wide and vertically extremely thin. Every vertical pixel is like gold. Unfortunately windows design was created in times when the monitors were much taller. So there is a lot of elements that consume vertical space instead of horizontal space. Unfortunate!  
 
 ![screenshot](https://github.com/LucianoBestia/home_automation/raw/main/images/screenshot_1.png)
 
-I like to have a button for fast shutdown on the Taskbar. In the icon properties:  
+I like to have a button for fast shutdown on the Taskbar. The Win10 original way to do it is crazy long: click Start - Power - Shutdown.  Maybe there is also a keyboard shortcut, but good luck to teach that to my wife.  
+I created a new icon with properties:  
 `Target: C:\Windows\System32\shutdown.exe /s /t 00`  
-And the Icon file: 
+And changed the Icon file: 
+<https://github.com/LucianoBestia/home_automation/raw/main/images/shutdown.ico>  
 
+I love the file manager TotalCommander from Ghisler:  
+<https://github.com/LucianoBestia/total_commander_best_file_manager>  
+I cannot live without it.  
 
+## other tiny things
 
+Sometimes I would like to listen to music from my smartphone. I don't have a good bluetooth speaker, but I have a Thinkpad attached to big speakers. I found this app `Bluetooth Audio Receiver` from Mark Smirnov and I am happy with it:  
+<https://www.microsoft.com/en-us/p/bluetooth-audio-receiver/9n9wclwdqs5j?activetab=pivot:overviewtab>
+
+I use some remote controlled 433 Mhz switches for power outlets. They come with their own remote controls and that is fine. But sometimes I would like to control them from my computer. So I used a Raspberry Pi as a local web server on my WiFi network. Attached to it is an arduino with a 433Mhz transmitter. With a little bit of software it works as a PMHAS - "poor man home automation system" :-). My friend Pingec helped me with Arduino:  
+<https://github.com/pingec/SerialRcSwitch>  
+
+## conclusion
+
+So I have my radio, calendar and clock, all in the digital world. Not bad. Maybe overkill, but a lot of fun.  
