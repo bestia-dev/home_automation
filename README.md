@@ -1,7 +1,7 @@
 # home_automation
 
 **Is comfort our end goal in life ?**  
-*date: 2021-02-23 authors: Luciano Bestia*
+***version: 1.0  date: 2021-02-23 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/home_automation)***  
 
 ## The big TV screen
 
