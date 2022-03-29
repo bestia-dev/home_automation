@@ -1,24 +1,24 @@
 # home_automation
 
 **Is comfort our end goal in life ?**  
-***version: 1.0  date: 2021-02-23 author: [dev_Bestia](https://bestia.dev) repository: [GitHub](https://github.com/LucianoBestia/home_automation)***  
+***version: 1.0  date: 2021-02-23 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/home_automation)***  
 
 ## The big TV screen
 
 I don't watch "television" anymore. But I have a big flat Panasonic TV screen attached to my Thinkpad notebook and I watch much too much Youtube videos.  
 The Thinkpad and the "big monitor" are switched on all day. What can I do? I am crazy about computers and stuff, and I hoard them.  
-![TV setup](https://github.com/LucianoBestia/home_automation/raw/main/images/TV_setup.jpg)
+![TV setup](https://github.com/bestia-dev/home_automation/raw/main/images/TV_setup.jpg)
 
 ## turn them on
 
 First I want to turn all of the components with one switch: TV, active speakers, mixing console and the Thinkpad. I put all of them on one power outlet which I then control with a 433 MHz remote control. But there was  problem (like always): the Thinkpad cannot be turned on like this. So I made a simple Arduino project for that. All the info is here:  
-<https://github.com/LucianoBestia/arduino_turns_on_laptop>  
+<https://github.com/bestia-dev/arduino_turns_on_laptop>  
 It is not great, but it is good enough. It works.  
 
 ## I need a clock
 
 I don't have any clock around my flat, but I need one. The TV screen is always on, why not use it to show a big black clock. And for fun let make it a rust project as a tutorial for new programmers.  
-<https://github.com/LucianoBestia/rust_wasm_pwa_minimal_clock>  
+<https://github.com/bestia-dev/rust_wasm_pwa_minimal_clock>  
 It is even more fun if it speaks the time every full hour.  
 I want it to start as soon as I turn on the computer. I used the Task Scheduler with this important parts:
 
@@ -104,9 +104,9 @@ Just like everything: it is not perfect, but it works good enough.
 ## clock in millidays
 
 My hobby is to think about time and date formats. There would be no fun in it, if these formats were "perfect", but they are terribly confusing and outdated. So I am proposing a reform to time/date to make it look modern, more `metric`. Sure we have to adapt it to the rotation of our planet and to human rhythms and traditions. It will always be just a compromise. It is impossible to make it "perfect". But we have to somehow change this archaic ways we use today to something better.  
-<https://github.com/LucianoBestia/new_date_time_units_and_formats>  
-<https://github.com/LucianoBestia/veeks_millis_clock>  
-<https://github.com/LucianoBestia/veeks_millis>  
+<https://github.com/bestia-dev/new_date_time_units_and_formats>  
+<https://github.com/bestia-dev/veeks_millis_clock>  
+<https://github.com/bestia-dev/veeks_millis>  
 
 The Task Scheduler exported xml (only important parts):  
 
@@ -133,16 +133,16 @@ The Task Scheduler exported xml (only important parts):
 
 On modern 16:9 screens it is clever to put the task bar on the left edge and fix it. Today monitors are far too wide and vertically extremely thin. Every vertical pixel is like gold. Unfortunately windows design was created in times when the monitors were much taller. So there is a lot of elements that consume vertical space instead of horizontal space. Unfortunate!  
 
-![screenshot](https://github.com/LucianoBestia/home_automation/raw/main/images/screenshot_1.png)
+![screenshot](https://github.com/bestia-dev/home_automation/raw/main/images/screenshot_1.png)
 
 I like to have a button for fast shutdown on the Taskbar. The Win10 original way to do it is crazy long: click Start - Power - Shutdown.  Maybe there is also a keyboard shortcut, but good luck to teach that to my wife.  
 I created a new icon with properties:  
 `Target: C:\Windows\System32\shutdown.exe /s /t 00`  
 And changed the Icon file: 
-<https://github.com/LucianoBestia/home_automation/raw/main/images/shutdown.ico>  
+<https://github.com/bestia-dev/home_automation/raw/main/images/shutdown.ico>  
 
 I love the file manager TotalCommander from Ghisler:  
-<https://github.com/LucianoBestia/total_commander_best_file_manager>  
+<https://github.com/bestia-dev/total_commander_best_file_manager>  
 I cannot live without it.  
 
 ## other tiny things
