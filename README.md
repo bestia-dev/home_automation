@@ -3,6 +3,8 @@
 **Is comfort our end goal in life ?**  
 ***version: 1.0  date: 2021-02-23 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/home_automation)***  
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Fhome_automation&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+
 ## The big TV screen
 
 I don't watch "television" anymore. But I have a big flat Panasonic TV screen attached to my Thinkpad notebook and I watch much too much Youtube videos.  
