@@ -75,6 +75,7 @@ I'd like to start it as soon as I start my Thinkpad+TV combo. I used the Task Sc
 ## Calendar
 
 The Google calendar is very convenient to have it in sight all the time. Let start it on Logon with a particular profile and defined size and position. Here is the important parts of the exported xml from Task Scheduler:  
+
 ```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <Task version="1.2" xmlns="http://schemas.microsoft.com/windows/2004/02/mit/task">
@@ -116,7 +117,7 @@ The Task Scheduler exported xml (only important parts):
 
 ```xml
   <RegistrationInfo>
-    <URI>\millisclock on startup</URI>
+    <URI>\millis clock on startup</URI>
   </RegistrationInfo>
   <Triggers>
     <LogonTrigger>
@@ -142,7 +143,7 @@ On modern 16:9 screens it is clever to put the task bar on the left edge and fix
 I like to have a button for fast shutdown on the Taskbar. The Win10 original way to do it is crazy long: click Start - Power - Shutdown.  Maybe there is also a keyboard shortcut, but good luck to teach that to my wife.  
 I created a new icon with properties:  
 `Target: C:\Windows\System32\shutdown.exe /s /t 00`  
-And changed the Icon file: 
+And changed the Icon file:  
 <https://github.com/bestia-dev/home_automation/raw/main/images/shutdown.ico>  
 
 I love the file manager TotalCommander from Ghisler:  
