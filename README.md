@@ -3,7 +3,7 @@
 **Is comfort our end goal in life ?**  
 ***version: 1.0  date: 2021-02-23 author: [bestia.dev](https://bestia.dev) repository: [GitHub](https://github.com/bestia-dev/home_automation)***  
 
-![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/132463935)
+![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/132463935.svg)
 
 Hashtags: #tutorial
 
